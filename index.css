@@ -1,0 +1,162 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*--------------------------------------------------------------------------------------*/
+#repeated_back{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-image:url('pics/back.jpg');
+	background-repeat:repeat;
+	z-index:0;
+}
+
+
+#logo{
+	position:absolute;
+	left:-350px;
+	top:20px;
+	width:178px;
+	height:134px;
+	background-image:url('pics/logo.png');
+	z-index:1;
+}
+
+#head{
+	position:absolute;
+	left:200px;
+	top:10px;
+	width:173px;
+	height:139px;
+	background-image:url('pics/head.png');
+	z-index:1;
+}
+
+#log{
+	position:absolute;
+	left:310px;
+	top:80px;
+	padding:20px;
+	width:142px;
+	height:80px;
+	background-image:url('pics/log.png');
+	z-index:2;
+}
+
+/* Posts */
+#post_cont{
+	position:absolute;
+	left:-300px;
+	top:200px;
+	width:584px;
+	z-index:1;
+}
+
+#post{
+	position:static;
+	left:0px;
+	width:584px;
+	z-index:2;
+}
+#posthead{
+	position:static;
+	left:0px;
+	top:0px;
+	width:584px;
+	height:59px;
+	background-image:url('pics/posthead.png');
+	z-index:3;
+}
+#postbody{
+	position:static;
+	margin-left:22px;
+	padding-left:10px;
+	top:59px;
+	width:546px;
+	background-image:url('pics/postback.jpg');
+	background-repeat:repeat-y;
+	z-index:3;
+}
+#postfoot{
+	position:static;
+	margin-left:22px;
+	top:0px;
+	width:556px;
+	height:8px;
+	background-image:url('pics/postfoot.jpg');
+	z-index:3;
+}
+/* Posts End */
+
+/*--------------------------------------------------------------------------------------*/
+
+#b_log{
+	position:absolute;
+	left:50px;
+	top:45px;
+	width:74px;
+	height:35px;
+	background-image:url('pics/b_log.jpg');
+	z-index:2;
+}
+
+#b_home{
+	position:absolute;
+	left:-130px;
+	top:80px;
+	width:74px;
+	height:35px;
+	background-image:url('pics/b_home.jpg');
+	z-index:2;
+}
+
+#b_blogs{
+	position:absolute;
+	left:-20px;
+	top:80px;
+	width:74px;
+	height:35px;
+	background-image:url('pics/b_blogs.jpg');
+	z-index:2;
+}
+
+#b_info{
+	position:absolute;
+	left:90px;
+	top:80px;
+	width:74px;
+	height:35px;
+	background-image:url('pics/b_info.jpg');
+	z-index:2;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+#center{
+	position:absolute;
+	left:50%;
+	top:0px;
+	width:10px;
+	height:10px;
+	z-index:0;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+.text{
+
+font-family:"Times New Roman",Times,serif;
+font-size:20px;
+color:#c6c3c3;
+
+/*--------------------------------------------------------------------------------------*/
+
+a{
+	text-decoration:none;
+	color:black;
+	padding-left:50px;
+}
